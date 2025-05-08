@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3.5em 0;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  max-width: 90%;
+}
+
+.mobile-image {
+  border-radius: 10px 10px 0 0;
+}
+
+.product-image,
+.mobile-image,
+.desktop-image {
+  width: 100%;
+}
+
+.desktop-image {
+  display: none;
+}
+
+.product-info {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.714rem;
+}
+
+.product-type {
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.product-name,
+.discount-price {
+  font-family: "Fraunces", serif;
+}
+
+.product-name {
+  line-height: 1;
+}
+
+.product-description {
+  color: hsl(228, 12%, 48%);
+  line-height: 2;
+  margin-top: 1rem;
+}
+
+.product-price {
+  display: flex;
+  gap: 0.714rem;
+  align-items: center;
+}
+
+.discount-price {
+  color: hsl(158, 36%, 37%);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.original-price {
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+
+.cart-icon {
+  margin-right: 10px;
+}
+
+.add-to-cart-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 0.8rem;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-to-cart-btn:hover {
+  background-color: hsl(158, 42%, 18%);
+  cursor: pointer;
+}
+
+footer {
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: flex;
+    max-width: 500px;
+  }
+
+  .product-image,
+  .product-info {
+    width: 50%;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+
+  .desktop-image {
+    border-radius: 10px 0 0 10px;
+    display: block;
+    height: 100%;
+  }
+
+  .product-description {
+    font-size: 11px;
+    line-height: 1.5;
+  }
+
+  /* footer {
+    top: 100%;
+  } */
+}
