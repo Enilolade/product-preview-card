@@ -19,12 +19,12 @@ A responsive product preview card component with mobile and desktop layouts. The
 
 ### Screenshot
 
-![Mobile Design](./screenshots/mobile.png)  
-![Desktop Design](./screenshots/desktop.png)
+- Mobile Screenshot: ![Mobile Design](./images/mobile-screenshot.png)
+- Desktop Screenshot: ![Desktop Design](./images/desktop-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add your solution URL here](#)
+- Solution URL: [Github](https://github.com/Enilolade/product-preview-card/tree/main/product-preview-card-component-main)
 - Live Site URL: [Add your live site URL here](#)
 
 ## My process
@@ -57,4 +57,4 @@ One challenge I faced was keeping the footer at the bottom of the screen on larg
 
 ## Author
 
-- Frontend Mentor – [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor – [@Enilolade](https://www.frontendmentor.io/profile/Enilolade)
