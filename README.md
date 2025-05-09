@@ -24,8 +24,8 @@ A responsive product preview card component with mobile and desktop layouts. The
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Enilolade/product-preview-card/tree/main/product-preview-card-component-main)
-- Live Site URL: [Add your live site URL here](#)
+- Solution URL: [Github](https://github.com/Enilolade/product-preview-card)
+- Live Site URL: [Click Here](https://enilolade.github.io/product-preview-card/)
 
 ## My process
 
